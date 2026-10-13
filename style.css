@@ -1,0 +1,18 @@
+:root{--bg:#f4f2ec;--surface:#ebe8df;--ink:#24261e;--muted:#5f6253;--accent:#4c5e36;--line:#d7d3c7}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b18;--surface:#26251f;--ink:#ece9df;--muted:#a7a596;--accent:#bac99c;--line:#3a3930}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Nunito",system-ui,-apple-system,sans-serif}
+main{max-width:720px;margin:0 auto;padding:56px 20px 80px}
+header{margin-bottom:40px}
+.brand{font:600 13px/1 "Nunito",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);text-decoration:none}
+h1{font:500 44px/1.1 "Cormorant Garamond",Georgia,serif;margin:18px 0 10px}
+h2{font:600 26px/1.25 "Cormorant Garamond",Georgia,serif;margin:40px 0 8px}
+p,li{color:var(--ink)}
+.meta{color:var(--muted);font-size:15px}
+.summary{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:28px 0}
+.summary p{margin:0}
+a{color:var(--accent)}
+ul{padding-left:1.2em}
+nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:15px}
+nav a{text-decoration:none}
